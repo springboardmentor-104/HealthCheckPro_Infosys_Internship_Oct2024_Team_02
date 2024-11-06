@@ -1,0 +1,95 @@
+.signup-container, .login-container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .signup-illustration, .login-illustration {
+    flex: 1;
+    background-color: #eaeef7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .signup-form, .login-form {
+    flex: 1;
+    padding: 60px;
+  }
+  
+  .illustration-img {
+    max-width: 80%;
+    max-height: 80%;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    margin-bottom: 20px;
+    color: #666;
+  }
+  
+  .input-group {
+    margin-bottom: 20px;
+  }
+  
+  .input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .input-group input, .input-group select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  button.signup-button, button.login-button {
+    background-color: #f7b700;
+    border: none;
+    padding: 12px 0;
+    width: 100%;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button.signup-button:hover, button.login-button:hover {
+    background-color: #d89d00;
+  }
+  
+  .success-message {
+    color: green;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  .login-link, .register-link {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .login-link a, .register-link a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .login-link a:hover, .register-link a:hover {
+    text-decoration: underline;
+  }
+  
+  .remember-me {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .remember-me label {
+    margin-left: 5px;
+  }
+  
